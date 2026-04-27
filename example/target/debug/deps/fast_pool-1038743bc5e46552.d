@@ -1,0 +1,12 @@
+D:\rust_test\rbdc-oracle2\example\target\debug\deps\fast_pool-1038743bc5e46552.d: C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\lib.rs C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\defer.rs C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\duration.rs C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\guard.rs C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\plugin\mod.rs C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\plugin\duration_manager.rs C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\pool.rs C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\state.rs
+
+D:\rust_test\rbdc-oracle2\example\target\debug\deps\libfast_pool-1038743bc5e46552.rmeta: C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\lib.rs C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\defer.rs C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\duration.rs C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\guard.rs C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\plugin\mod.rs C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\plugin\duration_manager.rs C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\pool.rs C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\state.rs
+
+C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\lib.rs:
+C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\defer.rs:
+C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\duration.rs:
+C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\guard.rs:
+C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\plugin\mod.rs:
+C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\plugin\duration_manager.rs:
+C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\pool.rs:
+C:\Users\han\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast_pool-1.0.4\src\state.rs:
