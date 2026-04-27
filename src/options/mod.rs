@@ -6,7 +6,13 @@ use rbdc::Error;
 use rbdc::db::{ConnectOptions, Connection};
 use serde::{Deserialize, Serialize};
 
+/// Connection options for Oracle.
+///
+/// Prefer `OracleConnectOptions::new()` / `Default::default()` plus the builder
+/// methods instead of direct struct literals, so new configuration fields can be
+/// added without breaking downstream code.
 #[derive(Serialize, Deserialize, Debug, Clone, Eq, PartialEq)]
+#[non_exhaustive]
 pub struct OracleConnectOptions {
     pub username: String,
     pub password: String,
@@ -35,6 +41,17 @@ impl OracleConnectOptions {
             row_channel_size: Self::default_row_channel_size(),
             command_channel_size: Self::default_command_channel_size(),
         }
+    }
+
+    pub fn with_credentials(
+        username: impl Into<String>,
+        password: impl Into<String>,
+        connect_string: impl Into<String>,
+    ) -> Self {
+        Self::new()
+            .username(username)
+            .password(password)
+            .connect_string(connect_string)
     }
 
     fn default_statement_cache_capacity() -> usize {

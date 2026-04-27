@@ -56,12 +56,7 @@ async fn main() {
     let rb = RBatis::new();
     rb.init_option::<OracleDriver, OracleConnectOptions, DefaultPool>(
         OracleDriver {},
-        OracleConnectOptions {
-            username: "user".to_string(),
-            password: "123456".to_string(),
-            connect_string: "//localhost/school".to_string(),
-            ..OracleConnectOptions::default()
-        },
+        OracleConnectOptions::with_credentials("user", "123456", "//localhost/school"),
     )
     .expect("rbatis link database fail");
 
